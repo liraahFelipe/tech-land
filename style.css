@@ -1,0 +1,122 @@
+/* style.css */
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#features {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-card {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.feature-card img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  color: #777;
+}
+
+#performance {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.performance-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.performance-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.performance-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.performance-details p {
+  color: #777;
+}
+
+footer {
+  background-color: #413d3d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .feature-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .performance-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .performance-info img {
+    margin-bottom: 20px;
+  }
+}
